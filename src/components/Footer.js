@@ -10,16 +10,12 @@ import { IoSend } from "react-icons/io5";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1d1d1d] py-16 text-white">
+    <footer className="bg-black/60 py-16 text-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
-
-        {/* ================= LEFT SIDE ================= */}
         <div>
           <p className="text-gray-400 text-sm mb-6">
             Your space… our smart ways!
           </p>
-
-          {/* NEWSLETTER */}
           <div className="flex items-center bg-white rounded-lg overflow-hidden shadow w-full max-w-xs">
             <input
               type="email"
@@ -30,8 +26,6 @@ export default function Footer() {
               <IoSend className="text-black text-xl" />
             </button>
           </div>
-
-          {/* ✅ SOCIAL MEDIA LINKS */}
           <div className="flex items-center gap-4 mt-6">
             <a
               href="https://twitter.com/yourusername"
